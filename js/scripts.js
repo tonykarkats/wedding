@@ -186,7 +186,7 @@ $(document).ready(function () {
 
       // You can also choose to set an end time
       // If an end time is set, this will take precedence over duration
-      end: "",
+      end: new Date("Jul 08, 2023 08:00"),
 
       // Event Address
       address: "Kokotos Estate, Stamata 14575",
