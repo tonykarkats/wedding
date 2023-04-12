@@ -100,6 +100,7 @@
               <ul class="primary-nav">
                 <li><a href="#map" class="login">Venue</a></li>
                 <li><a href="#events">Events</a></li>
+                <li><a href="#schedule">Schedule</a></li>
                 <li><a href="#recommendations">Recommendations</a></li>
                 <li><a href="#rsvp-wedding">RSVP / ΚΡΑΤΗΣΗ</a></li>
                 <li><a href="#contact">Contact us</a></li>
@@ -114,7 +115,18 @@
     </section>
     <!-- <section class="hero"></section> -->
     <section id="main-image">
-      <img src="./IMG_1608.jpeg" width="100%" style="padding-top: 171px" />
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-4 hidden-xs"></div> -->
+          <!-- <div class="col-md-4"> -->
+          <!-- <div class="col"> -->
+          <img src="./IMG_1608.jpeg" width="100%" style="padding-top: 171px" />
+          <!-- </div> -->
+          <!-- <div class="col-md-4 hidden-xs"></div> -->
+          <!-- </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
     </section>
 
     <section id="invitation" class="section-padding-first">
@@ -178,7 +190,7 @@
       </div>
     </section>
 
-    <section id="map" class="section-padding">
+    <section id="schedule" class="section-padding">
       <div class="text-center">
         <h3>Schedule</h3>
         <p>
@@ -198,6 +210,62 @@
         </div>
       </div>
     </section>
+
+    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span>&times;</span>
+            </button>
+            <h3 class="text-center section-padding">Schedule</h3>
+            <h5>
+              Wedding Ceremony <br /><span class="time"
+                ><i>18:30 - 19:00</i></span
+              >
+            </h5>
+            <p>
+              The wedding ceremony will take place at a small chapel at the
+              venue.<br />
+              <i>Hint:</i> You will be given some rice to throw to us when the
+              ceremony ends!
+            </p>
+
+            <h5>
+              Apero & Get to know games<br /><span class="time"
+                ><i>19:00 - 20:00</i></span
+              >
+            </h5>
+            <p>
+              We will disappear for a while to take some photos, but there will
+              be a small apero together with some optional
+              get-to-know-each-other games!
+            </p>
+
+            <h5>
+              Dinner <br /><span class="time"><i>20:00 - </i></span>
+            </h5>
+            <p>
+              A huge buffet will be waiting for you and will remain open all
+              night, so make sure to eat light lunch!
+            </p>
+
+            <h5>
+              Dances <br /><span class="time"><i>21:00 - </i></span>
+            </h5>
+            <p>Here you will have to prove what you learned!!</p>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <section class="events section-padding" id="events">
       <div class="container">
@@ -274,17 +342,17 @@
         <div class="row">
           <div class="col-md-12">
             <h3 class="header">Recommendations</h3>
-            <p>
+            <!-- <p>
               Below you can find a few recommendations for hotels, restaurants
               and things to do in Athens.
-            </p>
+            </p> -->
           </div>
         </div>
 
-        <!-- Hotels -->
         <div class="row">
+          <!-- Hotels -->
           <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-            <div class="wp3">
+            <div class="wp6">
               <h4><strong>Hotels</strong></h4>
               <br />
 
@@ -317,13 +385,11 @@
               </p>
             </div>
           </div>
-        </div>
 
-        <!-- Food  -->
-
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-            <div class="wp3">
+          <!-- Drinks  -->
+          <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+            <!-- Food  -->
+            <div class="wp7">
               <h4><strong>Food</strong></h4>
               <br />
 
@@ -349,13 +415,8 @@
                 <a href="https://www.varoulko.gr">Website</a>
               </p>
             </div>
-          </div>
-        </div>
 
-        <!-- Drinks  -->
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-            <div class="wp3">
+            <div class="wp4">
               <h4><strong>Drinks</strong></h4>
               <br />
 
