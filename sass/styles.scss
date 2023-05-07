@@ -13,11 +13,6 @@
 Global Styles
 ========================================================================== */
 
-.iframe {
-  height: 400px;
-  width: 350px;
-  overflow: auto;
-}
 .group:after {
   content: "";
   display: table;
@@ -209,7 +204,7 @@ Navigation
 ========================================================================== */
 .header-nav.open {
   visibility: visible;
-  opacity: 0.9;
+  opacity: 0.99;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
@@ -235,16 +230,16 @@ Navigation
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
   border-radius: 1px;
-  background: navy;
+  background: #4e1841;
   cursor: pointer;
 }
 .nav-toggle span:before {
   top: -10px;
-  background-color: navy;
+  background-color: #4e1841;
 }
 .nav-toggle span:after {
   bottom: -10px;
-  background-color: navy;
+  background-color: #4e1841;
 }
 .nav-toggle span,
 .nav-toggle span:before,
@@ -327,7 +322,7 @@ Hero
 .navigation {
   transition: all 300ms ease-in-out;
   position: fixed;
-  background-color: lightgrey;
+  background-color: white;
   opacity: 80%;
   width: 100%;
   z-index: 999;
@@ -335,7 +330,7 @@ Hero
 .fixed {
   position: fixed;
   background-color: rgba(55, 36, 40, 0.88);
-  background-color: lightgrey;
+  background-color: white;
   opacity: 80%;
   z-index: 999;
   width: 100%;
@@ -398,6 +393,7 @@ header {
   }
   .header-nav {
     display: inline-block;
+    background-color: white;
   }
   .member-actions {
     position: absolute;
