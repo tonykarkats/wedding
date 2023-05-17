@@ -214,7 +214,7 @@ $(document).ready(function () {
     );
 
     $.post(
-      "https://script.google.com/macros/s/AKfycbzBa2-WULiZC8e1VKhRBQkzlcAiIVzEqBWcmIm49yx4sR4hou3p38OazHdvKzM7XuGhSw/exec",
+      "https://script.google.com/macros/s/AKfycbxONEZgemAFLGC7eT5FqS1TYNpWfKTc-sXTjmZbgapD5xqmQZFs2X3Ye7tb-TAUD1PgFA/exec",
       data
     )
       .done(function (data) {
@@ -252,7 +252,7 @@ $(document).ready(function () {
     );
 
     $.post(
-      "https://script.google.com/macros/s/AKfycbzBa2-WULiZC8e1VKhRBQkzlcAiIVzEqBWcmIm49yx4sR4hou3p38OazHdvKzM7XuGhSw/exec",
+      "https://script.google.com/macros/s/AKfycbxONEZgemAFLGC7eT5FqS1TYNpWfKTc-sXTjmZbgapD5xqmQZFs2X3Ye7tb-TAUD1PgFA/exec",
       data
     )
       .done(function (data) {
@@ -290,7 +290,7 @@ $(document).ready(function () {
     );
 
     $.post(
-      "https://script.google.com/macros/s/AKfycbzBa2-WULiZC8e1VKhRBQkzlcAiIVzEqBWcmIm49yx4sR4hou3p38OazHdvKzM7XuGhSw/exec",
+      "https://script.google.com/macros/s/AKfycbxONEZgemAFLGC7eT5FqS1TYNpWfKTc-sXTjmZbgapD5xqmQZFs2X3Ye7tb-TAUD1PgFA/exec",
       data
     )
       .done(function (data) {
@@ -328,7 +328,7 @@ $(document).ready(function () {
     );
 
     $.post(
-      "https://script.google.com/macros/s/AKfycbzBa2-WULiZC8e1VKhRBQkzlcAiIVzEqBWcmIm49yx4sR4hou3p38OazHdvKzM7XuGhSw/exec",
+      "https://script.google.com/macros/s/AKfycbxONEZgemAFLGC7eT5FqS1TYNpWfKTc-sXTjmZbgapD5xqmQZFs2X3Ye7tb-TAUD1PgFA/exec",
       data
     )
       .done(function (data) {
