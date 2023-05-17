@@ -179,7 +179,7 @@ $(document).ready(function () {
       title: "Laura and Antonis' Wedding",
 
       // Event start date
-      start: new Date("Jul 07, 2023 18:00"),
+      start: new Date("Jul 07, 2023 18:30 GMT+03:00"),
 
       // Event duration (IN MINUTES)
       // duration: 120,
@@ -193,7 +193,7 @@ $(document).ready(function () {
 
       // Event Description
       description:
-        "We can't wait to see you on our big day! For any queries or issues, please contact us on +41788045944.",
+        "We can't wait to see you on our big day! For any queries or issues, please contact us on 0041788045944.",
     },
   });
 
